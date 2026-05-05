@@ -1,0 +1,19 @@
+{
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-25",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Program Files\\Java\\jdk-25",
+            "default": true
+        }
+    ],
+    "java.project.sourcePaths": [
+        "src\\main\\java"
+    ],
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": [
+        "lib\\opencv-4100.jar",
+        "lib\\sqlite-jdbc-3.53.0.0-without-natives.jar",
+        "lib\\sqlite-jdbc-3.53.0.0-natives-windows.jar"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run FaceAttendance",
+            "request": "launch",
+            "mainClass": "com.attendance.Main",
+            "cwd": "${workspaceFolder}",
+            "javaExec": "C:\\Program Files\\Java\\jdk-25\\bin\\java.exe",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED -Djava.library.path=lib",
+            "classPaths": [
+                "${workspaceFolder}\\out",
+                "${workspaceFolder}\\lib\\opencv-4100.jar",
+                "${workspaceFolder}\\lib\\sqlite-jdbc-3.53.0.0-without-natives.jar",
+                "${workspaceFolder}\\lib\\sqlite-jdbc-3.53.0.0-natives-windows.jar"
+            ]
+        }
+    ]
+}

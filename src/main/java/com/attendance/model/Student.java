@@ -15,14 +15,13 @@ public class Student {
         this.photoPath = photoPath;
     }
 
-    // Getters
+
     public int getId() { return id; }
     public String getName() { return name; }
     public String getSapId() { return sapId; }
     public String getClassName() { return className; }
     public String getPhotoPath() { return photoPath; }
 
-    // Setters
     public void setId(int id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     public void setSapId(String sapId) { this.sapId = sapId; }

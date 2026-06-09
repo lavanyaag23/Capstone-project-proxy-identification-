@@ -179,7 +179,7 @@ public class DatabaseHelper {
 
         String sql = "SELECT * FROM students";
         try (Statement stmt = connection.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {
+            ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
                 cacheStudent(toStudent(rs));
             }

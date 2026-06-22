@@ -1,0 +1,22 @@
+# IDE Files
+.vscode/
+.idea/
+
+# Java Build Files
+*.class
+out/
+target/
+build/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+
+# Jar files generated during build
+*.jar
